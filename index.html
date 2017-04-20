@@ -29,7 +29,32 @@
 			<h3>New To Dos</h3>
 		</div>
 
-		<!--Add progress-box from the reademe-->
+		<section id="new-tasks">
+			<ul id="new-list-container">
+			</ul>
+		</section>
+
+		<section id="todo-content-in-progress">
+			<ul id="in-progress">
+				<li class="task"></li>
+			</ul>
+		</section>
+
+		<section id="todo-content-finished">
+			<ul id="finished">
+				<li class="task"></li>
+			</ul>
+		</section>
+
+	</section>
+
+	<section id="newTaskForm">
+		<h3 class="todo-form-title">New To Do </h3>
+		<div  class="form-input-container">
+			<img id="cancel" src="./img/icons/cross.png" alt="close form icon">
+			<input id="newItemInput" class="todo-title-input form-input" type="text" placeholder="To-Do Title">
+			<button  id="saveNewItem" class="complete-todo-button">Add To Do</button>
+		</div>
 	</section>
 
 	<!-- FORM -->
@@ -43,7 +68,7 @@
 
 	<!--jQuery-->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<!--INclude your script file here -->
+	<script type="text/javascript" src="./scripts/scripts.js"></script>
 </main>
 </body>
 </html>
